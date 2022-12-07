@@ -12,4 +12,5 @@ ps aux >> 008_process.txt
 lsof -i >> 009_processlistening.txt
 service --status-all >> 010_services.txt
 netstat -punta >> 011_connections.txt
+ufw status numbered >> 012_fwstatus.txt
 cp /var/log /tmp/evidence_folder
